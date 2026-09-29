@@ -20,11 +20,11 @@ W65C02 can be overclocked to 25MHz at 3.5V, so this 3V6502 mezzanine board is de
 Place holder for now
 
 ### Design Files
-- Schematic
-- Gerber photoplots
-- CPLD design files
+- [Schematic](3v6502_rev1_scm.pdf)
+- [Gerber photoplots](3v6502_gerber_rev1.zip)
+- [CPLD design files](3v6502_rev1pcb_vga_ps2_released.zip)
   - PDF schematic of top-level CPLD design
-- Memory Map
+- [Memory Map](Memory_map.md)
 - Bill of Materials
 - Engineering change to EPM240 Development board. A short jumper is required from J4-pin1 to clock3.
 
