@@ -21,29 +21,19 @@ Place holder for now
 
 ### Design Files
 - Schematic
-
 - Gerber photoplots
-
 - CPLD design files
-
   - PDF schematic of top-level CPLD design
 - Memory Map
-
 - Bill of Materials
-
 - Engineering change to EPM240 Development board. A short jumper is required from J4-pin1 to clock3.
 
-
-
-
+![epm240mod](epm240devboard_3V6502_modification.jpg)
 
 ### Software
 - Bootstrap software in CPLD internal flash. This software initialize the SD card and load program stored in designated sectors in the SD card into RAM and execute.
-
 - 3V6502 monitor interface to terminal emulator at 115200N81
-
 - SD image contains rev0.2 of 3V6502 monitor. With this SD image, 3V6502 will auto boot into rev 0.2 monitor
-
 - 3V6502 standalone computer monitor. This is a simple monitor that receives inputs from PS2 keyboard and drives VGA display.
 
 - 
