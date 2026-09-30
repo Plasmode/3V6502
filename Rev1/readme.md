@@ -32,8 +32,8 @@ Place holder for now
 
 ### Software
 - [Bootstrap](Software/bootsd_for_cpld_flash_copy_e8-ef_to_0x3000_released.zip) software in CPLD internal flash. This software initialize the SD card and load program stored in designated sectors in the SD card into RAM and execute.
-- 3V6502 monitor interface to terminal emulator at 115200N81
-- SD image contains rev0.2 of 3V6502 monitor. With this SD image, 3V6502 will auto boot into rev 0.2 monitor
-- 3V6502 standalone computer monitor. This is a simple monitor that receives inputs from PS2 keyboard and drives VGA display.
+- [3V6502 monitor for serial interface](Software/3v6502_serial_monitor_rev0_2_released.zip) to terminal emulator at 115200N81
+- [SD image](Software/3v6502_serial_monitor_rev0_2_sd_image.zip) contains rev0.2 of 3V6502 monitor. With this SD image, 3V6502 will auto boot into rev 0.2 monitor
+- [3V6502 standalone computer monitor](Software/simple_mon_standalone_vga_ps2_r0_1_published.zip). This is a simple monitor that receives inputs from PS2 keyboard and drives VGA display.
 
 - 
